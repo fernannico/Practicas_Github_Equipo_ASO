@@ -7,4 +7,19 @@ C- ¿Qué color de fondo tiene su página en el MASTER?
 D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
 	el favicon de beta
 
+E- ¿Algún integrante tuvo problemas al hacer el push?
+	beta y gama
 
+F- ¿Qué problemas surgieron?
+	la consola decia que no podiamos hacer el push sin antes actualizar los cambios que habian de otros commits
+
+G- ¿Qué soluciones pueden aplicar y cual seria la consecuencia de cada solución adoptada?
+	la solucion que encontramos fue, aademas del push -f, que alfa haga su push
+	que beta haga el pull, actualice sus cambios, haga el push
+	que gama haga el pull, actualice sus cambios, haga el push
+
+H- ¿Qué sucede si cada uno utiliza el push -f?
+	hace un push forzado, haciendo que solo se actualice la version del usuario que haga el push -f. Ejemplo lo hizo gama y los commit de alfa y beta desaparecieron.
+
+I- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18,19 y 20 en DESARROLLO ?
+	que todos actualicen el testing en orden, que main haga un merge de testing y desarrollo haga un pull de main
